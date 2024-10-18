@@ -7,7 +7,7 @@ import Arrow from '../../public/arrow.png';
 
 const Hero = () => {
     return (
-        <div className='mb-20 px-16 py-4 h-fit bg-[rgb(245,247,246)] w-full'>
+        <div className='px-16 py-4 h-fit bg-[rgb(245,247,246)] w-full'>
             <div className='flex justify-between relative'>
                 <div>
                     <h1 className='mt-20 text-[64px] font-bold leading-tight'>
