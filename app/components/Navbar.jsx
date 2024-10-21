@@ -29,6 +29,7 @@ const Navbar = () => {
             <div className='w-full mt-3 bg-white shadow-[0_0_20px_0.1px_rgba(0,0,0,0.05)] rounded-xl'>
                 <div className='flex justify-between items-center p-4'>
                     <div className='flex gap-x-2 items-center'>
+                        {/* Logo */}
                         <div className='bg-blue-600 rounded-full w-11 h-11 flex justify-center items-center'>
                             <FontAwesomeIcon className='text-white h-5' icon={faCodeCompare} />
                         </div>
