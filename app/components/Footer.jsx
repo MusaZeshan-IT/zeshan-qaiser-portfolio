@@ -6,7 +6,7 @@ import FooterBg from '../../public/footer-bg.jpg';
 const Footer = () => {
     return (
         <footer className="bg-[rgb(4,9,29)] text-gray-300 py-10">
-            <div style={{ backgroundImage: `url(${FooterBg})`, backgroundSize: 'cover' }} className="px-12 mx-auto flex pt-10">
+            <div style={{ backgroundImage: `url(${FooterBg.src})`, backgroundSize: 'cover', backgroundPosition: '100px 10px' }} className="px-12 mx-auto flex pt-10 pb-36">
 
                 {/* Logo and description */}
                 <div className='w-3/12'>
@@ -91,8 +91,8 @@ const Footer = () => {
             </div>
 
             {/* Copyright */}
-            <div className=" mt-36 border-t border-gray-800 pt-6">
-                <p className='text-white text-center text-[19px]'>Copyright © 2024 — All Rights Reserved.</p>
+            <div className="border-t border-gray-800 pt-6">
+                <p className='text-white text-center text-[19px]'>Copyright © 2024 - All Rights Reserved.</p>
             </div>
         </footer>
     );
