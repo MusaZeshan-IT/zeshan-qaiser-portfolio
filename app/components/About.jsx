@@ -6,13 +6,13 @@ import Signature from '../../public/signature.png';
 const About = () => {
     return (
         <div className='bg-gray-50'>
-            <div className='flex gap-x-20 justify-between'>
-                <div className='w-[50%] flex justify-center items-center'>
+            <div className='p-10 flex lg:flex-row flex-col lg:gap-x-20 justify-between'>
+                <div className='xl:w-[50%] lg-custom:w-[55%] lg:w-[60%] flex justify-center items-center'>
                     <Image className="w-[85%] h-full" src={AboutImg} alt="" />
                 </div>
-                <div className='w-[50%]'>
-                    <div className='w-[90%]'>
-                        <h2 className='font-bold text-5xl mt-20'>World Leading Creative</h2>
+                <div className='xl:w-[50%] lg-custom:w-[45%] lg:w-[40%]'>
+                    <div>
+                        <h2 className='font-bold text-5xl mt-14'>World Leading Creative</h2>
                         <p className='text-gray-500 text-lg mt-5'>
                             Hello there! My name is Zeshan Qaiser. I am a web and graphic designer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional a graphic designer.
                         </p>

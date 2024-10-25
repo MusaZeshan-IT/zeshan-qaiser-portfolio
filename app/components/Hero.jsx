@@ -7,15 +7,15 @@ import Arrow from '../../public/arrow.png';
 
 const Hero = () => {
     return (
-        <div className='px-16 py-4 h-fit bg-[rgb(245,247,246)] w-full'>
-            <div className='flex justify-between relative'>
-                <div>
-                    <h1 className='mt-20 text-[64px] font-bold leading-tight'>
+        <div className='2xl:px-20 xl-custom:px-16 xl:px-14 lg-custom:px-12 lg:px-10 md-custom:px-32 md:px-28 sm-custom:px-24 sm:px-20 xs-custom:px-14 xs:px-10 2xs-custom:px-6 px-4 py-4 h-fit bg-[rgb(245,247,246)] w-full'>
+            <div className='flex lg:flex-row flex-col gap-10 justify-between'>
+                <div className='lg:w-6/12'>
+                    <h1 className='mt-20 xl:text-[64px] lg-custom:text-[60px] lg:text-[56px] md:text-[64px] sm:text-[60px] xs:text-[56px] 2xs-custom:text-[52px] 2xs:text-[48px] text-[44px] font-bold leading-tight'>
                         Hey, I am
                         <br />
                         Zeshan Qaiser
                         <br />
-                        <div className='w-full overflow-hidden relative'>
+                        <div className='w-full overflow-hidden'>
                             Graphic Designer
                             <svg width="495" height="18" viewBox="0 0 495 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_704_1264)">
@@ -30,12 +30,14 @@ const Hero = () => {
                         </div>
                     </h1>
                     <p className='text-gray-500 text-2xl mt-5'>Agency work with top-rated talented people that provide the best services.</p>
-                    <button className='flex justify-center items-center gap-x-2 bg-blue-600 text-white rounded-lg px-6 py-4 mt-8' type='button'>
+                    <button className='flex justify-center items-center text-[17px] gap-x-2 bg-blue-600 text-white rounded-lg px-[22px] py-[14px] mt-8' type='button'>
                         Hire me
                         <FontAwesomeIcon className='w-4 h-4' icon={faArrowRightLong} />
                     </button>
                 </div>
-                <Image className='h-[600px]' src={HeroImg} alt="Hero Image" />
+                <div className='lg:w-6/12'>
+                    <Image className='lg-custom:h-[600px] lg:h-[550px]' src={HeroImg} alt="Hero Image" />
+                </div>
             </div>
         </div>
     );

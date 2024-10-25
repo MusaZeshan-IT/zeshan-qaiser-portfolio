@@ -12,10 +12,10 @@ const Contact = () => {
     };
 
     return (
-        <div className='flex gap-x-14 px-16'>
-            <div className='w-5/12'>
-                <h2 className='text-5xl font-bold leading-snug text-gray-800'>
-                    Have Any Thought. <br /> Contact Us
+        <div className='flex lg:flex-row flex-col gap-14 2xl:px-20 xl-custom:px-16 xl:px-14 lg-custom:px-12 lg:px-10 md-custom:px-8 md:px-6 px-4'>
+            <div className='lg:w-5/12'>
+                <h2 className='xl:text-5xl lg-custom:text-4xl text-3xl font-bold leading-snug text-gray-800'>
+                    Have Any Thought. <br className='lg:block hidden' /> Contact Us
                 </h2>
                 <div className='flex flex-col gap-5 mt-8'>
                     {/* Get in touch with us */}
@@ -100,7 +100,7 @@ const Contact = () => {
             </div>
 
             {/* Form Section */}
-            <div className='w-7/12'>
+            <div className='lg:w-7/12'>
                 <div className='bg-[rgb(248,247,253)] rounded-lg p-8 flex flex-col gap-y-6'>
                     <div className='flex gap-x-7 justify-between'>
                         <div className='flex flex-col gap-y-2 w-full'>
