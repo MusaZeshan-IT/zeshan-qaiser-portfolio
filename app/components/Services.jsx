@@ -44,7 +44,7 @@ const Services = () => {
                     </div>
                     <h2 className='text-gray-800 mt-5 font-bold lg-custom:text-[22.5px] lg:text-[20px] md:text-[22.5px] xs:text-[25px] text-[22px] leading-snug'>Custom Pattern Design for Unique Branding</h2>
                     <p className='text-gray-500 lg-custom:text-lg lg:text-[17px] md:text-lg xs:text-xl text-[18.7px] leading-normal lg-custom:mt-4 lg:mt-3 mt-4'>
-                        Bring your ideas to life with unique, custom patterns designed to enhance your brand's aesthetic across various platforms.
+                        Bring your ideas to life with unique, custom patterns designed to enhance your brands aesthetic across various platforms.
                     </p>
                     <p className='text-gray-800 mt-8 md:text-base xs:text-lg text-[16.7px] underline flex gap-x-1 items-center'>
                         Explore Now
