@@ -6,14 +6,14 @@ import Signature from '../../public/signature.png';
 const About = () => {
     return (
         <div className='bg-gray-50'>
-            <div className='p-10 flex lg:flex-row flex-col lg:gap-x-20 justify-between'>
+            <div className='lg:p-10 md:p-9 sm:p-8 xs:p-6 p-4 flex lg:flex-row flex-col lg:gap-x-20 justify-between'>
                 <div className='xl:w-[50%] lg-custom:w-[55%] lg:w-[60%] flex justify-center items-center'>
-                    <Image className="w-[85%] h-full" src={AboutImg} alt="" />
+                    <Image className="md-custom:w-[85%] md:[90%] sm:w-[95%] w-full h-full" src={AboutImg} alt="" />
                 </div>
                 <div className='xl:w-[50%] lg-custom:w-[45%] lg:w-[40%]'>
                     <div>
-                        <h2 className='font-bold text-5xl mt-14'>World Leading Creative</h2>
-                        <p className='text-gray-500 text-lg mt-5'>
+                        <h2 className='font-bold md-custom:text-5xl sm:text-[42px] text-[36px] md:mt-14 sm:mt-10 mt-6 leading-tight'>World Leading Creative</h2>
+                        <p className='text-gray-500 lg:text-lg md:text-xl md:text-[19px] text-[18.5px] lg:mt-5 md-custom:mt-4 xs:mt-1 mt-2'>
                             Hello there! My name is Zeshan Qaiser. I am a web and graphic designer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional a graphic designer.
                         </p>
                         <div className='flex flex-col gap-6 mt-8'>

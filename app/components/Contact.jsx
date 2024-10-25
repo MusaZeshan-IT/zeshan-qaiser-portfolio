@@ -18,84 +18,38 @@ const Contact = () => {
                     Have Any Thought. <br className='lg:block hidden' /> Contact Us
                 </h2>
                 <div className='flex flex-col gap-5 mt-8'>
-                    {/* Get in touch with us */}
-                    <div>
-                        <div
-                            className='flex items-center justify-between border-b border-gray-500 pb-7 cursor-pointer'
-                            onClick={() => toggleSection(1)}
-                        >
-                            <h3 className='text-gray-900 font-medium text-[25.5px]'>
-                                <span className='me-5'>01</span>
-                                Get in touch with us
-                            </h3>
-                            <FontAwesomeIcon
-                                icon={openSection === 1 ? faAngleUp : faAngleDown}
-                                height={18}
-                                className='ml-3'
-                            />
-                        </div>
-                        {openSection === 1 && (
-                            <div className='overflow-hidden transition-all duration-500 ease-in-out mt-3 text-gray-600'>
-                                <p className='text-[17px] leading-[1.4]'>
-                                    We're here to answer your questions and assist you with any inquiries. Reach out to us
-                                    through the form and let's start a conversation. We value meaningful connections and are
-                                    always eager to hear from you!
-                                </p>
-                            </div>
-                        )}
-                    </div>
 
-                    {/* Ask a question */}
-                    <div>
-                        <div
-                            className='flex items-center justify-between border-b border-gray-500 pb-7 cursor-pointer'
-                            onClick={() => toggleSection(2)}
-                        >
-                            <h3 className='text-gray-900 font-medium text-[25.5px]'>
-                                <span className='me-5'>02</span>
-                                Ask a question
-                            </h3>
-                            <FontAwesomeIcon
-                                icon={openSection === 2 ? faAngleUp : faAngleDown}
-                                height={18}
-                                className='ml-3'
-                            />
-                        </div>
-                        {openSection === 2 && (
-                            <div className='overflow-hidden transition-all duration-500 ease-in-out mt-3 text-gray-600'>
-                                <p className='text-[17px] leading-[1.4]'>
-                                    Got something on your mind? Whether it's about our services or anything else, ask away!
-                                    We're here to provide clear, thoughtful responses to help you make informed decisions.
+                    {/* Reusable Dropdown Section */}
+                    {[
+                        { title: "Get in touch with us", content: "We're here to answer your questions and help with any inquiries you may have." },
+                        { title: "Ask a question", content: "Got something on your mind? Feel free to ask us anything, and we'll get back to you shortly." },
+                        { title: "Hand over a project", content: "Ready to get started on your next big project? Let us know how we can support you from start to finish." }
+                    ].map((section, index) => (
+                        <div key={index}>
+                            <div
+                                className='flex justify-between items-center border-b border-gray-500 pb-7 cursor-pointer'
+                                onClick={() => toggleSection(index + 1)}
+                            >
+                                <h3 className='text-gray-900 font-medium xs:text-[25.5px] text-[23.5px]'>
+                                    <span className='xs:me-5 2xs-custom:me-4 me-3'>{`0${index + 1}`}</span>
+                                    {section.title}
+                                </h3>
+                                <FontAwesomeIcon
+                                    icon={openSection === index + 1 ? faAngleUp : faAngleDown}
+                                    height={18}
+                                    className='xs:ml-3 ml-2'
+                                />
+                            </div>
+                            <div
+                                className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${openSection === index + 1 ? 'max-h-60' : 'max-h-0'
+                                    }`}
+                            >
+                                <p className='text-[17px] leading-[1.4] text-gray-600 mt-3 px-2 py-4'>
+                                    {section.content}
                                 </p>
                             </div>
-                        )}
-                    </div>
-
-                    {/* Hand over a project */}
-                    <div>
-                        <div
-                            className='flex items-center justify-between border-b border-gray-500 pb-7 cursor-pointer'
-                            onClick={() => toggleSection(3)}
-                        >
-                            <h3 className='text-gray-900 font-medium text-[25.5px]'>
-                                <span className='me-5'>03</span>
-                                Hand over a project
-                            </h3>
-                            <FontAwesomeIcon
-                                icon={openSection === 3 ? faAngleUp : faAngleDown}
-                                height={18}
-                                className='ml-3'
-                            />
                         </div>
-                        {openSection === 3 && (
-                            <div className='overflow-hidden transition-all duration-500 ease-in-out mt-3 text-gray-600'>
-                                <p className='text-[17px] leading-[1.4]'>
-                                    Ready to get started on your next big project? Hand it over to us, and we'll ensure it
-                                    gets the attention it deserves. Let's build something amazing together.
-                                </p>
-                            </div>
-                        )}
-                    </div>
+                    ))}
                 </div>
             </div>
 
@@ -133,6 +87,6 @@ const Contact = () => {
             </div>
         </div>
     );
-}
+};
 
 export default Contact;
