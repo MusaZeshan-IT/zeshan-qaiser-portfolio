@@ -16,10 +16,10 @@ const Banner = () => {
             <div className="relative z-10 flex flex-col items-center justify-center h-full 2xl:px-20 xl-custom:px-16 xl:px-14 lg-custom:px-12 lg:px-10 md-custom:px-8 md:px-6 px-4 text-white">
 
                 {/* Text Content */}
-                <div className="flex w-full lg:flex-row flex-col justify-between">
+                <div className="flex w-full lg:flex-row xl:gap-x-0 lg-custom:gap-x-4 lg:gap-x-10 flex-col justify-between">
                     <div className='lg:w-[50%]'>
                         <h1 className="lg-custom:text-[48px] lg:text-[42px] md:text-[36px] sm:text-[30px] text-[24px] font-bold leading-[1.25] mb-4">
-                            Hire me <br /> as a product design great skills elite.
+                            Hire me <br /> as a product design <br /> great skills elite.
                         </h1>
                     </div>
                     <div className='lg:w-[50%] flex flex-col justify-center'>
