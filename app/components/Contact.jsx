@@ -55,7 +55,7 @@ const Contact = () => {
 
             {/* Form Section */}
             <div className='lg:w-7/12'>
-                <div className='bg-[rgb(248,247,253)] rounded-lg p-8 flex flex-col gap-y-6'>
+                <div className='bg-[rgb(248,247,253)] rounded-lg lg:p-8 md:p-6 xs:px-5 px-4 py-7 flex flex-col gap-y-6'>
                     <div className='flex md:flex-row flex-col gap-x-7 gap-y-5 justify-between'>
                         <div className='flex flex-col gap-y-2 w-full'>
                             <label className='text-gray-500 font-medium' htmlFor="fname">First Name</label>
