@@ -14,7 +14,7 @@ const About = () => {
                     <div>
                         <h2 className='font-bold md-custom:text-5xl sm:text-[42px] text-[36px] md:mt-14 sm:mt-10 mt-6 leading-tight'>World Leading Creative</h2>
                         <p className='text-gray-500 lg:text-lg md:text-xl md:text-[19px] text-[18.5px] lg:mt-5 md-custom:mt-4 xs:mt-1 mt-2'>
-                            Hello there! My name is Zeshan Qaiser. I am a web and graphic designer, and I'm very passionate and dedicated to my work. With 2 years experience as a professional a graphic designer.
+                            Hello there! My name is Zeshan Qaiser. I am a web and graphic designer, and I am very passionate and dedicated to my work. With 2 years experience as a professional a graphic designer.
                         </p>
                         <div className='flex flex-col gap-6 mt-8'>
                             <div>

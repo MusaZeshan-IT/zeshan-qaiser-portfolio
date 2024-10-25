@@ -53,7 +53,7 @@ const Navbar = () => {
                         </div>
                         <div>
                             <button className='flex gap-x-2 font-medium items-center bg-blue-600 rounded-lg px-5 py-[13px] text-white'>
-                                Let's Talk
+                                Lets Talk
                                 <FontAwesomeIcon className="h-4" icon={faArrowRightLong} />
                             </button>
                         </div>

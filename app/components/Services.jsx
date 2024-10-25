@@ -14,7 +14,7 @@ const Services = () => {
                     Expertise that Elevates Your Brand
                 </h1>
                 <p className='xl:w-[56%] lg-custom:w-[54%] lg:w-[52%] text-gray-500 lg-custom:text-[19px] lg:text-[17px] text-lg leading-[1.4]'>
-                    We turn ideas into captivating digital experiences, combining stunning visuals with seamless functionality to elevate your brand. Let’s bring your vision to life with tailored, sophisticated solutions.
+                    We turn ideas into captivating digital experiences, combining stunning visuals with seamless functionality to elevate your brand. Lets bring your vision to life with tailored, sophisticated solutions.
                 </p>
             </div>
 
