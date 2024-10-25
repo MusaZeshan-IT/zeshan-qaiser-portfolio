@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="flex md:flex-row flex-col md:gap-0 gap-y-10 pt-10 lg:mb-36" style={{ backgroundImage: `url(${FooterBg.src})`, backgroundSize: 'cover', backgroundPosition: '100px 10px' }}>
 
                 {/* Logo and Description Section */}
-                <div className="lg:w-3/12 w-6/12 mr-10">
+                <div className="lg:w-3/12 md:w-6/12 mr-10">
                     <div className="flex gap-2 items-center">
                         <div className="bg-blue-600 rounded-full w-11 h-11 flex justify-center items-center">
                             <FontAwesomeIcon className="text-white h-5" icon={faCodeCompare} />

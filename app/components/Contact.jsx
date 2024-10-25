@@ -102,7 +102,7 @@ const Contact = () => {
             {/* Form Section */}
             <div className='lg:w-7/12'>
                 <div className='bg-[rgb(248,247,253)] rounded-lg p-8 flex flex-col gap-y-6'>
-                    <div className='flex gap-x-7 justify-between'>
+                    <div className='flex md:flex-row flex-col gap-x-7 gap-y-5 justify-between'>
                         <div className='flex flex-col gap-y-2 w-full'>
                             <label className='text-gray-500 font-medium' htmlFor="fname">First Name</label>
                             <input placeholder='John' type="text" name="fname" id="fname" className='shadow-[0_0_10px_0.1px_rgba(0,0,0,0.04)] rounded-lg px-4 py-[10px]' />
@@ -112,7 +112,7 @@ const Contact = () => {
                             <input placeholder='Smith' type="text" name="lname" id="lname" className='shadow-[0_0_10px_0.1px_rgba(0,0,0,0.04)] rounded-lg px-4 py-[10px]' />
                         </div>
                     </div>
-                    <div className='flex gap-x-7 justify-between'>
+                    <div className='flex md:flex-row flex-col gap-x-7 gap-y-5 justify-between'>
                         <div className='flex flex-col gap-y-2 w-full'>
                             <label className='text-gray-500 font-medium' htmlFor="email">Email</label>
                             <input placeholder='john.smith@gmail.com' type="text" name="email" id="email" className='shadow-[0_0_10px_0.1px_rgba(0,0,0,0.04)] rounded-lg px-4 py-[10px]' />

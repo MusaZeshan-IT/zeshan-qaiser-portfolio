@@ -18,17 +18,17 @@ const Banner = () => {
                 {/* Text Content */}
                 <div className="flex w-full lg:flex-row flex-col justify-between">
                     <div className='lg:w-[50%]'>
-                        <h1 className="lg-custom:text-[48px] lg:text-[42px] md:text-[36px] text-[30px] font-bold leading-[1.25] mb-4">
+                        <h1 className="lg-custom:text-[48px] lg:text-[42px] md:text-[36px] sm:text-[30px] text-[24px] font-bold leading-[1.25] mb-4">
                             Hire me <br /> as a product design great skills elite.
                         </h1>
                     </div>
                     <div className='lg:w-[50%] flex flex-col justify-center'>
-                        <p className="text-lg md:text-xl lg:text-2xl mb-8">
+                        <p className="lg:text-2xl md:text-xl sm:text-lg text-base mb-8">
                             Innovative product designer, turning unique ideas into impactful solutions.
                         </p>
 
                         {/* Button */}
-                        <button className="w-48 py-[14px] text-base md:text-[17px] text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all">
+                        <button className="sm:w-48 w-40 sm:py-[14px] py-[12px] md:text-[17px] sm:text-base text-sm text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-all">
                             Download CV <FontAwesomeIcon icon={faDownload} className="ml-2" />
                         </button>
                     </div>
